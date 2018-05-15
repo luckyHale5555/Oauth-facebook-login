@@ -1,0 +1,38 @@
+body {
+    background-image: url("best.jpg");
+    background-size:100%;
+  	background-repeat: no-repeat;
+  
+}
+    @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+    }
+
+    @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+    }
+    
+    .button{
+    background-image: url("share.png");
+    margin: 20px;
+    background-size: 100% 100%;
+    width: 400px;
+    height:100px;
+    }
+
+    .headnameline{
+      padding-top: 20px;
+      text-shadow: 2px 2px 4px #000000;
+      color:blue;
+    }
+
+    .proimagediv{
+        padding-top: 50px;
+        padding-left:50px;
+    }
+
+     .probutdiv{
+        padding-bottom: 10px;
+    }
